@@ -1,0 +1,693 @@
+html{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-weight: 600;
+    Font-size: 64px;
+
+}
+
+h2{
+    font-weight: 600;
+    Font-size: 36px;
+}
+
+h3{
+    font-weight: 400;
+    Font-size: 20px;
+    
+}
+
+h4{
+    font-weight: ;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+h5{
+    Font-style: SemiBold;
+    Font-size: 14px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    padding: 1%;
+  }
+header a{
+    text-decoration: none;
+    font-size:20px;
+    color: rgba(34, 38, 58, 1);
+    border-bottom: 2px solid #ec5c3800;
+}
+header .nav-left a:hover {
+  border-bottom: 2px solid #EC5B38;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+header nav ul li a{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    margin-left: 25%;
+}
+
+.nav-right{
+    display: flex;
+    width: 40%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 31px;
+  }
+.nav ul li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+    width:100%;
+    height:auto ;
+}
+#btn-EClients{
+    border: 3px #1B58ED solid ;
+    border-radius: 15px 0px;
+    padding: 5px 10px ;
+    Font-style: Regular;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+}
+#btn-EClients:hover{
+    background: #1B58ED;
+    color:#ffff;
+}
+
+#btn-commencer{
+    background: #EC5B38;
+    border: 3px #EC5B38 solid ;
+    color:#ffff;
+    border-radius: 15px 0px;
+    padding: 5px 10px;
+    Font-style: Regular;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+}
+#btn-commencer:hover{
+    background: #ffffff;
+    color:#000;
+}
+
+
+.blockgauche{
+    width: 50%;
+    display: flex;
+    flex-direction: column; 
+    flex: 1 1 0px;
+}
+.blocktxt{
+    width: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.TF{
+    
+    display: flex; 
+    
+}
+.Toutfrais{
+    color: rgba(34, 38, 58, 1);
+
+}
+.TP{
+   
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+
+.Toutprêt{
+    
+    color: rgba(34, 38, 58, 1);
+}
+
+.TEC{ 
+}
+    
+.Tousen{ 
+    
+    color: rgba(34, 38, 58, 1);
+}
+    
+.Rectangle3{ 
+    width: 20%; 
+    padding-top: 13px; 
+    padding-bottom: 13px; 
+    padding-left: 68px; 
+    padding-right: 67px; 
+    background-color: rgba(236, 91, 56, 1); 
+    border-top-left-radius: 15px; 
+    border-bottom-right-radius: 15px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    border: solid rgba(236, 91, 56, 1);
+    font-size: 14px; 
+    font-weight: 600; 
+    line-height: 100%; 
+    text-align: center; 
+    color: white;
+    margin-left: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Rectangle3:hover{
+    background-color: white;
+    color: black;
+}
+.Texte{
+    font-size: 14px; 
+    font-weight: 600; 
+    line-height: 100%; 
+    text-align: center; 
+    color: white;
+}
+
+.home{
+    display: flex;
+    max-width: 1436px;
+    align-items: center;
+    margin: 0 auto;
+}
+.blockdroite{
+    width: 50%;
+    flex: 1 1 0px;
+    position: relative;
+}
+
+#fondb{
+    position: relative;
+    background-color:#e1efff;
+    width:100%;
+    border-radius:0px 100px 0px 100px;
+    top: 5%;
+    left: 0%;
+    right: 0%;
+    bottom: 6.5%;
+    position: absolute;
+}
+.btnplus {
+    position: absolute;
+    background-color: white;
+    width: 10%;
+    height: 10%;
+    text-align: center;
+    align-items: center;
+    bottom: -5%;
+    left: 45%;
+    z-index: 10;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.25);
+}
+
+
+.recette{
+    align-items: center;
+    position: absolute;
+    background-color: rgba(252, 244, 222, 1);
+    width: 20%;
+    padding: 1%;
+    top: 20%;
+    left: 80%;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.recette h3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+}
+
+.recette ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10%;
+    padding-bottom: 5%;
+}
+
+.panier{
+    width: 100%;
+    position: relative;
+    z-index: 4;
+}
+.panier img{
+    max-width: 100%;
+}
+.vague {
+    width: 100%;
+    height: 150px;
+    background-color: #e1efff;
+    position: relative;
+  }
+
+.tout{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+
+.paratout{
+    display: flex;
+    padding-top: 5px;
+
+}
+.titre1{
+    padding-bottom: 0.5%;
+    border-bottom: solid 3px rgba(236, 91, 56, 1); 
+}
+.plogo{
+    width: 60px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.wave{
+    width: 100%;
+    background-color: #e1efff;
+    margin: 0 auto;
+    position: relative;
+}
+.vague-2{
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+    background-color: white;
+}
+.expli{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.explication{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.explication img{
+   width: 50%;
+   margin: 0 auto;
+   padding-bottom: 15px;
+}
+
+.explication h4{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.explication h3{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.fleche{
+    width: 8%;
+    height: 2.5%;
+    padding-top: 15%;
+}
+
+.titre2 {
+    text-align: center;
+    margin-top: 8%;
+    margin-left: 35.5%;
+    margin-right: 35.5%;
+    margin-bottom: 8%;
+    padding-bottom: 0.5%;
+    border-bottom: solid 3px rgba(236, 91, 56, 1); 
+}
+.abonnements{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    z-index: 2;
+}
+.abonnement{
+width: 22%;
+background-color: rgba(38, 45, 81, 1);
+border-radius: 15px 0px;
+margin-left: 3%;
+margin-right: 3%;
+margin-top: 2.5%;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.abonnement-1-an{
+    background-color: rgba(34, 38, 58, 1);
+    margin-top: 0;
+}
+
+.LPP{
+    text-align: center;
+    background-color: rgba(27, 88, 237, 1);
+    border-radius: 15px 0px 0px 0px;
+    color: white;
+    padding: 2.5%;
+}
+
+
+.abonnement ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 5%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.abonnement-1-an ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.headabo{
+    text-align: center;
+}
+.headabo h1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.aboprix{
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.check{
+    width: 35px;
+}
+.btnabo{
+    display: flex;
+    justify-content: center;
+    border-radius: 0px 0px 15px 0px;
+}
+.btn-bleu{
+    border: 3px #1B58ED solid ;
+    background-color: #1B58ED;
+    color: white;
+    border-radius: 15px 0px;
+    padding: 5px 10px ;
+    margin: 5%;
+
+}
+.btn-bleu:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.avisgeneral{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    
+}
+
+.avisgeneral img{
+    width: 30%;
+    align-items: center;
+}
+
+.avis{
+    padding: 5%;
+    background-color: rgba(225, 239, 255, 1);
+    margin-top: 15%;
+    border-radius: 15px 0px;
+}
+
+.profilavis{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.profilavis img{
+    width: 10%;
+    margin-right: 15%;
+    align-items: center;
+}
+
+
+.footeravis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.etoile{
+    display: flex;
+}
+
+.slideravis {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-bottom: 5%;
+}
+    .avisgeneral {
+      flex: 0 0 auto;
+    }
+    .slideravis::-webkit-scrollbar{
+        display: none;
+      }
+.newsletter{
+    background-color: rgba(34, 38, 58, 1);
+    color: #ffffff;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 2.5%;
+    Margin-bottom: 5%;
+    border-radius: 15px 0px;
+}
+    
+.placeholder{
+    width: 50%;
+}
+        
+.button {
+    border: 3px rgba(236, 91, 56, 1) solid ;
+    background-color: rgba(236, 91, 56, 1);
+    color: white;
+    border-radius: 15px 0px;
+    padding: 5px 10px ;
+    margin: 5%;
+        
+}
+.button:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+footer{
+    width:100%;
+    margin:0 auto;
+    background-color: #E1EFFF;
+  }
+.contenu-footer{
+  display:flex;
+}
+footer a{
+    text-decoration: none;
+    font-size:20px;
+    color: black;
+    opacity: 80%;
+}
+footer ul{
+    list-style-type: none;
+  }
+.retour{
+  display:flex;
+  flex-direction: row-reverse;
+}
+#logo-footer{
+  width:80%;
+  opacity: 50%;
+}
+.rubriques {
+    display: flex;
+    flex: 1;
+    line-height: 1.8;
+  }
+
+.colonne {
+    flex: 1;
+  }
+
+.illust{
+    display: flex;
+    flex: 1;
+    max-width: 25%;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.svg-footer svg{
+  margin:5px;
+}
+.partenaire img{
+  margin-right:5px;
+  opacity: 80%;
+}
+.abonnements_mobiles{
+    display: none;
+}
+
+@media screen and (max-width:950px){
+    h1{
+        font-weight: bold;
+        Font-size: 24px;
+    
+    }
+    
+    h2{
+        font-weight: 600;
+        Font-size: 16px;
+    }
+    
+    h3{
+        font-weight: 400;
+        Font-size: 14px;
+        
+    }
+    
+    h4{
+        font-family: Raleway;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+    
+    }
+    
+    h5{
+        Font-style: 700;
+        Font-size: 8px;
+    }
+    .abonnement-1-an{
+        display: none;
+    }
+    .abonnement{
+        display: none;
+    }
+    .abonnements_mobiles{
+        display: block;
+    }
+
+    .wave{
+        width: 100%;
+        height: 1600px;
+        background-color: #e1efff;
+        margin: 0 auto;
+        position: relative;
+    }
+    .etoile img{
+        width: 10px;
+    }
+
+    .titre2{
+        margin-bottom: 15%;
+    }
+
+}
+
+@media screen and (max-width:1000px){
+    h1{
+        font-weight: bold;
+        Font-size: 40px;
+    
+    }
+    
+    h2{
+        font-weight: 600;
+        Font-size: 22px;
+    }
+    
+    h3{
+        font-weight: 400;
+        Font-size: 18px;
+        
+    }
+    
+    h4{
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+    
+    }
+    
+    h5{
+        Font-style: 600;
+        Font-size: 10px;
+    }
+}
+
+          
+       

@@ -1,0 +1,70 @@
+
+    .abonnements_mobiles{
+        width: 360px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .abonnement_mobile{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(34, 38, 58, 1);
+        margin-top: 10%;
+        color: white;
+        border-radius: 15px 0px;
+        
+    }
+
+    .haut{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+
+    .abo_gauche{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    .aboprix_mobile{
+        display: flex;
+    }
+
+    .abo_droite{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-top: 2%;
+
+    }
+    .bas_mobile{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .bas_mobile h3{
+        padding-top: 2%;
+        padding-bottom: 0.5%;
+        margin: 0 auto;
+        border-bottom: solid rgba(236, 91, 56, 1);
+    }
+    .btn-bleum{
+        border: 3px #1B58ED solid ;
+        background-color: #1B58ED;
+        color: white;
+        border-radius: 15px 0px;
+        padding: 5px 10px ;
+        margin: 5%;
+    
+    }
+    .btn-bleum:hover{
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+    }
+
+
+
+    
+
+

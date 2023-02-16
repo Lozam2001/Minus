@@ -677,6 +677,10 @@ footer ul{
         display: block;
     } 
 
+    .nav-left{
+        display: none;
+    }
+
 }
 
 @media screen and (max-width:1000px){

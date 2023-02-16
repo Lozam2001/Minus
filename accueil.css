@@ -605,7 +605,7 @@ footer ul{
     display: none;
 }
 
-@media screen and (max-width:950px){
+@media screen and (max-width:720px){
     h1{
         font-weight: bold;
         Font-size: 24px;

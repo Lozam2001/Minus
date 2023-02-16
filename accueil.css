@@ -664,9 +664,7 @@ footer ul{
 
     header{
         padding: 20px;
-        position: sticky;
-        top: 0;
-        background: #E1EFFF;
+        background: white;
         width: 100%;
     }
     

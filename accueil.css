@@ -35,17 +35,28 @@ h5{
     Font-size: 14px;
 }
 
+header .menu-complet-mobile{
+    display: none;
+}
+
+/* DEBUT HEADER DESKTOP */
+
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-weight: 400;
-    padding: 1%;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background: #E1EFFF;
   }
+
+
 header a{
     text-decoration: none;
     font-size:20px;
-    color: rgba(34, 38, 58, 1);
+    color: black;
     border-bottom: 2px solid #ec5c3800;
 }
 header .nav-left a:hover {
@@ -78,7 +89,7 @@ header nav ul li a{
     justify-content: center;
     align-items: center;
     gap: 65px;
-    margin-left: 25%;
+    font-weight: 600;
 }
 
 .nav-right{
@@ -96,17 +107,16 @@ header nav ul li a{
   align-items: center;
 }
 .logo{
-    width:100%;
+    width:150px;
     height:auto ;
 }
 #btn-EClients{
     border: 3px #1B58ED solid ;
     border-radius: 15px 0px;
     padding: 5px 10px ;
-    Font-style: Regular;
-    font-family: Raleway;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
+    text-align: center;
 }
 #btn-EClients:hover{
     background: #1B58ED;
@@ -119,73 +129,14 @@ header nav ul li a{
     color:#ffff;
     border-radius: 15px 0px;
     padding: 5px 10px;
-    Font-style: Regular;
-    font-family: Raleway;
-    font-size: 16px;
-    font-weight: 400;
 }
 #btn-commencer:hover{
     background: #ffffff;
     color:#000;
 }
 
-/* Sidenav menu */
-.sidenav {
-    text-align: center;
-      height: 75%;
-      width: 100%;
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      left: -100%;
-      background-color: #E1EFFF;
-      padding-top: 60px;
-      transition: left 0.5s ease;
-    }
-    
-    .sidenav ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-    }
-    
-    /* Sidenav menu links */
-    .sidenav a {
-      line-height: 50px;
-      padding: 8px 8px 8px 32px;
-      text-decoration: none;
-      font-size: 24px;
-      font-weight: 600;
-      font-family: "Raleway";
-      color: black;
-      display: block;
-      transition: 0.3s;
-    }
-    
-    .sidenav a:hover {
-      color: #111;
-    }
-    
-    /* Active class */
-    .sidenav.active {
-      left: 0;
-    }
-    
-    /* Close btn */
-    .sidenav .close {
-      position: absolute;
-      top: 0;
-      right: 25px;
-      font-size: 36px;
-    }
-    
-    .burger-icon span {
-      display: block;
-      width: 35px;
-      height: 6px;
-      background-color: black;
-      margin: 6px 0;
-    }
+/* FIN HEADER DESKTOP */ 
+
 
 
 .blockgauche{
@@ -710,6 +661,23 @@ footer ul{
     .titre2{
         margin-bottom: 15%;
     }
+
+    header{
+        padding: 20px;
+        position: sticky;
+        top: 0;
+        background: #E1EFFF;
+        width: 100%;
+    }
+    
+    header .logo{
+        margin-left: 20px;
+        width: 130px;
+    }
+    
+    header .menu-complet-mobile{
+        display: block;
+    } 
 
 }
 

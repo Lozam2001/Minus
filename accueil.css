@@ -683,39 +683,6 @@ footer ul{
 
 }
 
-@media screen and (max-width:1000px){
-    h1{
-        font-weight: bold;
-        Font-size: 40px;
-    
-    }
-    
-    h2{
-        font-weight: 600;
-        Font-size: 22px;
-    }
-    
-    h3{
-        font-weight: 400;
-        Font-size: 18px;
-        
-    }
-    
-    h4{
-        font-family: Raleway;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 19px;
-        letter-spacing: 0em;
-        text-align: left;
-    
-    }
-    
-    h5{
-        Font-style: 600;
-        Font-size: 10px;
-    }
-}
 
           
        

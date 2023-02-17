@@ -550,14 +550,17 @@ justify-content: space-between;
     color: white;
 }
 
+/* DEBUT FOOTER */
+
 footer{
     width:100%;
     margin:0 auto;
     background-color: #E1EFFF;
   }
+
 .contenu-footer{
   display:flex;
-  margin-left: 0,5px;
+  margin: 0 50px;
   line-height: 50px;
 }
 footer a{
@@ -602,6 +605,10 @@ footer ul{
   margin-right:5px;
   opacity: 80%;
 }
+footer .footer-mobile{
+    display: none;
+}
+/* FIN FOOTER */
 .abonnements_mobiles{
     display: none;
 }
@@ -740,6 +747,55 @@ footer ul{
     background-color: black;
     margin: 6px 0;
   }
+
+  footer .footer-desktop{
+    display: none;
+}
+
+footer .footer-mobile{
+    display: block;
+}
+
+footer .partie1-footer-mobile h2{
+    font-size: 20px;
+}
+
+footer .partie2-footer-mobile{
+    margin: 0px 20px;
+    padding: 10px 0;
+  }
+
+footer .partie2-footer-mobile p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+footer .partie3-footer-mobile a{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.email input{
+    width: 95%;
+    padding: 8px;
+}
+
+.submit button{
+    width: 50%;
+    padding: 10px;
+    border-radius: 15px 0 15px 0;
+    background: #EC5B38;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    margin-top: 10px;
+}
+
+.mentions-confidentialite{
+    line-height: 25px;
+}
+
 
 }
 

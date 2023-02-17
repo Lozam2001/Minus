@@ -617,7 +617,7 @@ footer .footer-mobile{
 }
 
 
-@media screen and (max-width:720px){
+@media screen and (max-width:780px){
     h1{
         font-weight: bold;
         Font-size: 24px;

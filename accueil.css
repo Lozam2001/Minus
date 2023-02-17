@@ -722,6 +722,7 @@ footer ul{
   /* Active class */
   .sidenav.active {
     left: 0;
+    z-index: 1000;
   }
 
   /* Close btn */

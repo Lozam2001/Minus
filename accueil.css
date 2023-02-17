@@ -748,6 +748,13 @@ footer .footer-mobile{
     margin: 6px 0;
   }
 
+footer .footer-desktop{
+    display: none;
+}
+
+footer .footer-mobile{
+    display: block;
+}
   footer{
     background-color: #E1EFFF;
 }

@@ -504,9 +504,9 @@ footer .partie3-footer-mobile p{
   display: block;
 }
 
-.form-a, .form-b{
+.form-a, .form-b, .form-c, .form-d{
   width:40%;
-  margin-left:3%;;
+  margin-left:15%;;
 }
 .form-a input{
   width:80%;

@@ -42,12 +42,15 @@
         display: flex;
         flex-direction: column;
         text-align: center;
+        padding-bottom: 30px;
+        margin-top: 10px;
     }
     .bas_mobile h3{
         padding-top: 2%;
         padding-bottom: 0.5%;
         margin: 0 auto;
         border-bottom: solid rgba(236, 91, 56, 1);
+        margin-bottom: 30px;
     }
     .btn-bleum{
         border: 3px #1B58ED solid ;

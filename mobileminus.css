@@ -1,0 +1,43 @@
+@media screen and (max-width: 720px) {
+    .nav-left{
+        display:none;
+    }
+    .partie1 svg path{
+        height: 500px;
+    }
+    .nav-right a:first-child {
+        display:none;
+      }
+    footer .footer-mobile{
+        display: block;
+      }
+    header .menu-complet-mobile{
+        display:block;
+    }
+
+    footer .footer-desktop{
+        display: none;
+      }
+  }
+
+
+@media screen and (max-width: 720px) {
+    .process{
+        display:none;
+    }
+    .recap {
+        position: static; /* position statique */
+        width:100%;
+        /* font-size: 80%; */
+      }
+    .form-a, .form-b, .form-c, .form-d{
+        width:100%;
+        padding:10px ;
+        margin-bottom: 5px;
+        border-radius: 15px 0px 15px 0px;
+        border-style: none;
+        background-color: #E1EFFF;
+        margin-left: 0%;
+    }
+    
+  }

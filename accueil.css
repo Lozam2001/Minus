@@ -20,7 +20,6 @@ h3{
 }
 
 h4{
-    font-weight: ;
     font-family: Raleway;
     font-size: 16px;
     font-weight: 400;
@@ -682,6 +681,64 @@ footer ul{
     header .nav-left{
         display: none;
     }
+
+    /* Sidenav menu */
+.sidenav {
+  text-align: center;
+    height: 75%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -100%;
+    background-color: #E1EFFF;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+  }
+
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Sidenav menu links */
+  .sidenav a {
+    line-height: 50px;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Raleway";
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #111;
+  }
+
+  /* Active class */
+  .sidenav.active {
+    left: 0;
+  }
+
+  /* Close btn */
+  .sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+
+  .burger-icon span {
+    display: block;
+    width: 35px;
+    height: 6px;
+    background-color: black;
+    margin: 6px 0;
+  }
 
 }
 

@@ -688,7 +688,7 @@ footer ul{
     height: 75%;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 1000;
     top: 0;
     left: -100%;
     background-color: #E1EFFF;
@@ -700,6 +700,7 @@ footer ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
+    z-index: 1001;
   }
 
   /* Sidenav menu links */

@@ -172,8 +172,7 @@ header nav ul li a{
     color: rgba(34, 38, 58, 1);
 }
 
-.TEC{ 
-}
+
     
 .Tousen{ 
     
@@ -459,6 +458,10 @@ justify-content: space-between;
     margin: 5%;
 
 }
+.btn-bleu a{
+    color: white;
+    text-decoration: none;
+}
 .btn-bleu:hover{
     background-color: rgba(0, 0, 0, 0);
     color: white;
@@ -612,6 +615,7 @@ footer .footer-mobile{
 .abonnements_mobiles{
     display: none;
 }
+
 
 @media screen and (max-width:720px){
     h1{

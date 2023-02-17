@@ -558,8 +558,7 @@ footer{
   }
 .contenu-footer{
   display:flex;
-  margin-left: 0,5px;
-  line-height: 50px;
+  padding: 0,5%;
 }
 footer a{
     text-decoration: none;

@@ -791,6 +791,8 @@ footer .partie1-footer-mobile .reseaux-sociaux img{
 footer .partie2-footer-mobile{
   display: flex;
   justify-content: space-between;
+  margin: 0px 20px;
+  padding: 10px 0px;
 }
 
 footer .partie3-footer-mobile{

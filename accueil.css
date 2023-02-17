@@ -236,6 +236,7 @@ header nav ul li a{
     right: 0%;
     bottom: 6.5%;
     position: absolute;
+    z-index: 1;
 }
 .btnplus {
     position: absolute;
@@ -262,6 +263,7 @@ header nav ul li a{
     left: 80%;
     border-radius: 15px 0px 15px 0px;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.25);
+    z-index: 2;
 }
 
 .recette h3{

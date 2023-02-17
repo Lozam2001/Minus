@@ -563,7 +563,9 @@ footer .partie1-footer-mobile {
     border: 1px black solid;
     margin-top: 10px;
 }
-
+.footer-mobile{
+    display: none;
+}
 footer .partie1-footer-mobile h2 {
     font-weight: 600;
     padding: 20px 0px;
@@ -735,6 +737,9 @@ footer .partie3-footer-mobile p {
     }
 
 
+    .footer-desktop{
+        display: none;
+    }
     * {
         box-sizing: border-box;
     }

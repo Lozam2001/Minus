@@ -748,52 +748,62 @@ footer .footer-mobile{
     margin: 6px 0;
   }
 
-  footer .footer-desktop{
-    display: none;
+  footer{
+    background-color: #E1EFFF;
 }
 
-footer .footer-mobile{
-    display: block;
-}
-
-footer .partie1-footer-mobile h2{
-    font-size: 20px;
-}
-
-footer .partie2-footer-mobile{
-    margin: 0px 20px;
-    padding: 10px 0;
-  }
-
-footer .partie2-footer-mobile p{
-    font-size: 16px;
-    font-weight: 600;
-}
-
-footer .partie3-footer-mobile a{
-    font-size: 14px;
-    font-weight: 600;
+footer .partie1-footer-mobile{
+    text-align: center;
 }
 
 .email input{
-    width: 95%;
-    padding: 8px;
+  width: 95%;
+  padding: 8px;
 }
 
 .submit button{
-    width: 50%;
-    padding: 10px;
-    border-radius: 15px 0 15px 0;
-    background: #EC5B38;
-    color: white;
-    font-size: 20px;
-    font-weight: 400;
-    border: none;
-    margin-top: 10px;
+  width: 50%;
+  padding: 10px;
+  border-radius: 15px 0 15px 0;
+  background: #EC5B38;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
 }
 
-.mentions-confidentialite{
-    line-height: 25px;
+footer .partie1-footer-mobile h2{
+    font-weight: 600;
+    padding: 20px 0px;
+}
+
+footer .partie1-footer-mobile .reseaux-sociaux img{
+    padding: 10px;
+}
+
+footer .partie2-footer-mobile{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .partie3-footer-mobile{
+    text-align: center;
+}
+
+footer .partie3-footer-mobile img{
+    margin-top: 20px;
+}
+
+footer .mentions-confidentialite{
+    margin-top: 20px;
+}
+
+footer .partie3-footer-mobile a{
+    padding: 0px 50px;
+}
+
+footer .partie3-footer-mobile p{
+    margin-top: 20px;
 }
 
 
